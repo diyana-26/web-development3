@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#story-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#story-form textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#story-form input[type="file"] {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#story-list, #forum-discussions {
+    margin-top: 20px;
+}
+
+#story-list div, #forum-discussions div {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#forum-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#forum-form input, #forum-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+#social a {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}

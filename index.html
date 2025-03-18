@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Journey Stories</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Bus Journey Stories</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#stories">Travel Stories</a></li>
+                <li><a href="#forum">Forum</a></li>
+                <li><a href="#social">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Your Journey Starts Here</h2>
+        <p>Share your stories, tips, and photos from your bus journeys.</p>
+    </section>
+
+    <section id="stories" class="section">
+        <h2>Travel Stories</h2>
+        <div class="stories-container">
+            <form id="story-form">
+                <textarea id="story-text" placeholder="Share your travel story..."></textarea>
+                <input type="file" id="photo-upload" accept="image/*">
+                <button type="submit">Submit Story</button>
+            </form>
+            <div id="story-list">
+                <!-- Stories will appear here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="forum" class="section">
+        <h2>Community Forum</h2>
+        <div id="forum-discussions">
+            <!-- Discussion threads will appear here -->
+        </div>
+        <form id="forum-form">
+            <input type="text" id="forum-title" placeholder="Discussion Title" required>
+            <textarea id="forum-content" placeholder="Share your thoughts..." required></textarea>
+            <button type="submit">Create Thread</button>
+        </form>
+    </section>
+
+    <section id="social" class="section">
+        <h2>Follow Us on Social Media</h2>
+        <p>Stay connected with us on our social platforms!</p>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bus Journey Stories. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
